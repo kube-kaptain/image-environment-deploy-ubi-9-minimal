@@ -1,7 +1,7 @@
 FROM ghcr.io/kube-kaptain/kaptain/kaptain-deploy-scripts:1.0.3 AS KAPTAIN_DEPLOY_SCRIPTS
 # Easy way to pull in the scripts for now and maybe forever
 
-FROM ghcr.io/kube-kaptain/image/image-environment-base-ubi-9-minimal:1.34.3
+FROM ghcr.io/kube-kaptain/image/image-environment-base-ubi-9-minimal:1.34.5
 # Always use the most explicit version you can find for what you need
 
 # All the scripts come in this way
